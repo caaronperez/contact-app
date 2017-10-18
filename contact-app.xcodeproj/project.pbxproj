@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB1FF5E41F97213700CEB800 /* CreatePersonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FF5E21F97213600CEB800 /* CreatePersonPresenter.swift */; };
+		BB1FF5E51F97213700CEB800 /* PersonPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB1FF5E31F97213700CEB800 /* PersonPresenter.swift */; };
 		BB81E0701F96EF9A00456F5B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E06F1F96EF9A00456F5B /* AppDelegate.swift */; };
 		BB81E0721F96EF9A00456F5B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E0711F96EF9A00456F5B /* ViewController.swift */; };
 		BB81E0751F96EF9A00456F5B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81E0731F96EF9A00456F5B /* Main.storyboard */; };
@@ -14,6 +16,10 @@
 		BB81E07A1F96EF9A00456F5B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB81E0781F96EF9A00456F5B /* LaunchScreen.storyboard */; };
 		BB81E0851F96EF9A00456F5B /* contact_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E0841F96EF9A00456F5B /* contact_appTests.swift */; };
 		BB81E0901F96EF9A00456F5B /* contact_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E08F1F96EF9A00456F5B /* contact_appUITests.swift */; };
+		BB81E0A01F96F1E600456F5B /* TableViewCellController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E09D1F96F1E500456F5B /* TableViewCellController.swift */; };
+		BB81E0A11F96F1E600456F5B /* TableViewCellController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB81E09E1F96F1E600456F5B /* TableViewCellController.xib */; };
+		BB81E0A21F96F1E600456F5B /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E09F1F96F1E600456F5B /* RatingControl.swift */; };
+		BB81E0A61F96F42100456F5B /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB81E0A51F96F42100456F5B /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB1FF5E21F97213600CEB800 /* CreatePersonPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatePersonPresenter.swift; sourceTree = "<group>"; };
+		BB1FF5E31F97213700CEB800 /* PersonPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonPresenter.swift; sourceTree = "<group>"; };
 		BB81E06C1F96EF9A00456F5B /* contact-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "contact-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB81E06F1F96EF9A00456F5B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BB81E0711F96EF9A00456F5B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +55,10 @@
 		BB81E08B1F96EF9A00456F5B /* contact-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "contact-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB81E08F1F96EF9A00456F5B /* contact_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contact_appUITests.swift; sourceTree = "<group>"; };
 		BB81E0911F96EF9A00456F5B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB81E09D1F96F1E500456F5B /* TableViewCellController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCellController.swift; sourceTree = "<group>"; };
+		BB81E09E1F96F1E600456F5B /* TableViewCellController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellController.xib; sourceTree = "<group>"; };
+		BB81E09F1F96F1E600456F5B /* RatingControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		BB81E0A51F96F42100456F5B /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +89,9 @@
 		BB81E0631F96EF9A00456F5B = {
 			isa = PBXGroup;
 			children = (
+				BBB669B01F97A1C200731B40 /* Models */,
+				BBB669AF1F97A1B500731B40 /* Controllers */,
+				BBB669AE1F97A1AA00731B40 /* Views */,
 				BB81E06E1F96EF9A00456F5B /* contact-app */,
 				BB81E0831F96EF9A00456F5B /* contact-appTests */,
 				BB81E08E1F96EF9A00456F5B /* contact-appUITests */,
@@ -98,10 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				BB81E06F1F96EF9A00456F5B /* AppDelegate.swift */,
-				BB81E0711F96EF9A00456F5B /* ViewController.swift */,
-				BB81E0731F96EF9A00456F5B /* Main.storyboard */,
 				BB81E0761F96EF9A00456F5B /* Assets.xcassets */,
-				BB81E0781F96EF9A00456F5B /* LaunchScreen.storyboard */,
 				BB81E07B1F96EF9A00456F5B /* Info.plist */,
 			);
 			path = "contact-app";
@@ -123,6 +135,36 @@
 				BB81E0911F96EF9A00456F5B /* Info.plist */,
 			);
 			path = "contact-appUITests";
+			sourceTree = "<group>";
+		};
+		BBB669AE1F97A1AA00731B40 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BB81E0731F96EF9A00456F5B /* Main.storyboard */,
+				BB81E0781F96EF9A00456F5B /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BBB669AF1F97A1B500731B40 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BB81E09F1F96F1E600456F5B /* RatingControl.swift */,
+				BB81E09D1F96F1E500456F5B /* TableViewCellController.swift */,
+				BB81E09E1F96F1E600456F5B /* TableViewCellController.xib */,
+				BB81E0711F96EF9A00456F5B /* ViewController.swift */,
+				BB1FF5E31F97213700CEB800 /* PersonPresenter.swift */,
+				BB1FF5E21F97213600CEB800 /* CreatePersonPresenter.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BBB669B01F97A1C200731B40 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BB81E0A51F96F42100456F5B /* Person.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +277,7 @@
 				BB81E07A1F96EF9A00456F5B /* LaunchScreen.storyboard in Resources */,
 				BB81E0771F96EF9A00456F5B /* Assets.xcassets in Resources */,
 				BB81E0751F96EF9A00456F5B /* Main.storyboard in Resources */,
+				BB81E0A11F96F1E600456F5B /* TableViewCellController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +302,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB81E0A61F96F42100456F5B /* Person.swift in Sources */,
+				BB1FF5E41F97213700CEB800 /* CreatePersonPresenter.swift in Sources */,
+				BB1FF5E51F97213700CEB800 /* PersonPresenter.swift in Sources */,
+				BB81E0A21F96F1E600456F5B /* RatingControl.swift in Sources */,
 				BB81E0721F96EF9A00456F5B /* ViewController.swift in Sources */,
+				BB81E0A01F96F1E600456F5B /* TableViewCellController.swift in Sources */,
 				BB81E0701F96EF9A00456F5B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
